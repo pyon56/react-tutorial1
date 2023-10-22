@@ -1,4 +1,3 @@
 import { createRoot } from "react-dom/client";
-import App from "./App";
-
-createRoot(document.querySelector("#content")).render(<App />);
+import Main from "./components/MainCont";
+createRoot(document.querySelector("#Main")).render(<Main />);
